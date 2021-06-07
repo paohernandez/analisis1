@@ -23,6 +23,44 @@ namespace Analisis.Entidades.Ventas
         public decimal total { get; set; }
         public bool condicion { get; set; }
 
+        public Almacen.Articulo Articulo
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
+        public Venta Venta
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DetalleIngreso DetalleIngreso
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DetalleIngreso DetalleIngreso1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DetalleIngreso DetalleIngreso2
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

@@ -25,5 +25,13 @@ namespace Analisis.Entidades.Usuarios
         public string password_hash { get; set; }
         public string password_salt { get; set; }
         public bool condicion { get; set; }
+
+        public Ventas.Ingreso Ingreso
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

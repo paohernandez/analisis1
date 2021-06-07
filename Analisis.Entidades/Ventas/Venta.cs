@@ -7,7 +7,7 @@ namespace Analisis.Entidades.Ventas
 {
     public class Venta
     {
-        public int idusuario { get; set; }
+        public int Idusuario { get; set; }
         [Required]
         [StringLength(10, ErrorMessage = "en el tipo de comprobante debe de haber al menos 10 caracteres")]
         public string tipoComprobante { get; set; }
@@ -22,5 +22,28 @@ namespace Analisis.Entidades.Ventas
         public decimal total { get; set; }
         public bool condicion { get; set; }
 
+        public DetalleVenta DetalleVenta
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DetalleVenta DetalleVenta1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DetalleVenta DetalleVenta2
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

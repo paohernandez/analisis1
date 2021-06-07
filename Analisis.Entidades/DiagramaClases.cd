@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Analisis.Entidades.Almacen.Articulo" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAAAAACgAAEAAAAEAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Almacen\Articulo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Almacen.Categoria" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAMAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Almacen\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Analisis.Entidades.Usuarios.Persona" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAACAAAGAAAAAAACAAgAAAAwAAAICAAA=</HashCode>
+      <FileName>Usuarios\Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ingreso" />
+      <Property Name="Rol" />
+      <Property Name="Cliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Usuarios.Rol" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAEAAAAAAgAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Usuarios\Rol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Analisis.Entidades.Usuarios.Usuario" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAEIACAAACAQAAAAAAAAAQAAAQAgAAAAAI=</HashCode>
+      <FileName>Usuarios\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ingreso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Ventas.DetalleIngreso" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAA=</HashCode>
+      <FileName>Ventas\DetalleIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Analisis.Entidades.Ventas.DetalleVenta" Collapsed="true">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAACAAAEAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ventas\DetalleVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Analisis.Entidades.Ventas.Ingreso" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAIAAAQAAABAIAAIAAAAiAAACAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Ventas\Ingreso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Articulo" />
+      <Property Name="Venta" />
+      <Property Name="DetalleIngreso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Ventas.Venta" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIQAAQAAAAAIAAIAAAAgAAACAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Ventas\Venta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DetalleVenta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Info.Cliente" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAEAAAAAAAAAAAAAEAAAQAwAAAAA=</HashCode>
+      <FileName>Info\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Telefonos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Analisis.Entidades.Info.Telefonos" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABEAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Info\Telefonos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -7,8 +7,5 @@ namespace Analisis.Entidades.Ventas
         public int cantidad{ get; set; }
         public decimal precio { get; set; }
         public decimal descuento { get; set; }
-
-        
-
     }
 }

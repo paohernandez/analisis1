@@ -19,5 +19,28 @@ namespace Analisis.Entidades.Almacen
         public string descripcion { get; set; }
         public bool condicion { get; set; }
 
+        public Categoria Categoria
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Categoria Categoria1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Categoria Categoria2
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

@@ -10,5 +10,13 @@ namespace Analisis.Entidades.Ventas
         public int cantidadDetalleIngreso { get; set; }
         public decimal precioDetalleIngreso { get; set; }
         public int ingresoDetalleIngreso { get; set; }
+
+        public Almacen.Articulo Articulo
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

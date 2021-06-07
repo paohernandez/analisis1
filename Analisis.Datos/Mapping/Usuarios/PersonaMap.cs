@@ -15,15 +15,12 @@ namespace Analisis.Datos.Mapping.Usuarios
                .HasKey(c => c.idpersona);
             bulder.Property(c => c.nombrePersona)
                   .HasMaxLegth(100);
-            bulder.Property(c => c.tipoDocumento)
+            bulder.Property(c => c.tipoCliente)
                   .HasMaxLegth(20);
-            bulder.Property(c => c.numDocumento)
-                  .HasMaxLegth(20);
-            bulder.Property(c => c.direccion)
+            bulder.Property(c => c.direccionCliente)
                 .HasMaxLegth(70);
-            bulder.Property(c => c.telefono)
-                .HasMaxLegth(20);
-            bulder.Property(c => c.gmail)
+            bulder.Property(c => c.gmailCliente)
                 .HasMaxLegth(50);
         }
 }
+    }

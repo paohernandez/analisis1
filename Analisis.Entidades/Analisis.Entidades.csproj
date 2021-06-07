@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Info\NewFolder1\" />
+    <Folder Include="Info\NewFolder\" />
+  </ItemGroup>
+
 </Project>
