@@ -3,7 +3,7 @@
   <Class Name="Analisis.Entidades.Almacen.Articulo" Collapsed="true">
     <Position X="6.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAIAAAAAAAACgAAEAAAAEAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAIAAAAAAAACgAEkAAAAEAAAAEIAAAAAAAAAAAAA=</HashCode>
       <FileName>Almacen\Articulo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -20,7 +20,7 @@
   <Class Name="Analisis.Entidades.Usuarios.Persona" Collapsed="true">
     <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAACAAAGAAAAAAACAAgAAAAwAAAICAAA=</HashCode>
+      <HashCode>AAEAAIAAEgAAABCAAAGQAAAAgAOIAgAAAAwEAAICAAA=</HashCode>
       <FileName>Usuarios\Persona.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -30,7 +30,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Analisis.Entidades.Usuarios.Rol" Collapsed="true">
-    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Position X="6.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAEAAAAAAgAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Usuarios\Rol.cs</FileName>
@@ -49,7 +49,7 @@
   <Class Name="Analisis.Entidades.Ventas.DetalleIngreso" Collapsed="true">
     <Position X="0.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEBAAAAAQAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAA=</HashCode>
       <FileName>Ventas\DetalleIngreso.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -75,7 +75,7 @@
   <Class Name="Analisis.Entidades.Ventas.Venta" Collapsed="true">
     <Position X="4" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAIQAAQAAAAAIAAIAAAAgAAACAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>AAACAIQAAQAAAAAIAAIAAAAgAAADAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Ventas\Venta.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -85,7 +85,7 @@
   <Class Name="Analisis.Entidades.Info.Cliente" Collapsed="true">
     <Position X="6.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAAAAAEAAAAAAAAAAAAAEAAAQAwAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAABAAAAAAEAgAQAAAAAAAAAEAAAQAwAAAAA=</HashCode>
       <FileName>Info\Cliente.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
